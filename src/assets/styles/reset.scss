@@ -1,0 +1,14 @@
+.arco-layout-sider-light {
+  box-shadow: unset;
+  border-right: 1px solid var(--color-border);
+}
+.arco-table-tr {
+  &:last-child {
+    .arco-table-td {
+      border: none;
+    }
+  }
+}
+.arco-modal-mask {
+  background-color: #1d212947;
+}
